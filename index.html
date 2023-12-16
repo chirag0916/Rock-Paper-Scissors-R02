@@ -1,13 +1,32 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Odin-Recipes</title>
+        <title>Rock Paper Scissors</title>
         <script src="script.js"></script>
         <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
-        <h1>Rock Paper Scissors</h1>
-      
+    <div class="game">
+        <div class="title">
+            <h1>Rock Paper Scissors</h1>
+        </div>
+
+        <div class="moves">
+            <button id="rock">Rock</button>
+            <button id="paper">Paper</button>
+            <button id="scissors">Scissors</button>
+        </div>
+
+        <div class="scores">
+            <h3 id="player-scores-title">Player Score:</h3>
+            <span id="player-score">0</span>
+            <h3 id="computer-scores-title">Computer Score:</h3>
+            <span id="computer-score">0</span>
+        </div>
+        <div class="output">
+            <span id="outcome"></span>
+        </div>
+    </div>
     </body>
 
 </html>

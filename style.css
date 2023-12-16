@@ -1,0 +1,55 @@
+.title,
+.scores,
+.output {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.moves {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+#rock,
+#paper,
+#scissors {
+  display: block;
+  width: 100%;
+  border: solid;
+  background-color: lightgray;
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+#player-scores-title,
+#computer-scores-title {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#player-score,
+#computer-score,
+#outcome{
+  font-weight: bold;
+}
+
+#player-score,
+#player-scores-title{
+color: green;
+}
+
+#computer-score,
+#computer-scores-title {
+  color:red;
+  }
+
+#outcome {
+  font-size: 18Spx;
+}
